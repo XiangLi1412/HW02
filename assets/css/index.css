@@ -1,0 +1,559 @@
+/* 選文字的網站 */
+/* https://free.com.tw/fontcdn/ */
+/* https://thomaspark.co/projects/fontcdn/ */
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+html, body{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* 滿圖背景 */
+/* https://www.astralweb.com.tw/full-screen-backround-image/ */
+
+/* 背景重複顯示 */
+/* https://www.wibibi.com/info.php?tid=76 */
+/* https://geek543.blogspot.com/2019/03/CSS-Tutorial-background-attachment.html */
+
+body{
+	background-image: url(../image/bg.png);
+	/* background-image: url(../image/bg.jpg); */
+	background-attachment: fixed;
+	/* background-repeat: repeat-y; */
+	background-size: cover;
+	font-family: 微軟正黑體;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 30px;
+}
+
+.name{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 94%;
+	height: 60px;
+	font-size: 38px;
+	font-family: monospace;
+	font-weight: bold;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	/* transition: 2.6s; */
+	/* color: green; */
+	background-color: white;
+	opacity: 0.8;
+}
+
+
+
+nav{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top: 30px;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 94%;
+	/* background-color: #e74d3b; */
+	opacity: 0.85;
+}
+
+.cen{
+	/* display: flex; */
+	/* justify-content: center; */
+}
+
+.item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 23px;
+	font-family: 微軟正黑體;
+	height: 56px;
+	width: 17%;
+	color: white;
+	/* transition: 0.5s; */
+}
+ 
+.item:hover {
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: underline;
+	/* transition: 0.4s; */
+}
+
+.text_item{
+	text-decoration: none;
+	color: white;
+}
+
+.banner{
+	position: relative;
+	left: 3%;
+	width: 94%;
+	top: 30px;
+}
+
+
+
+.sect_all{
+	display: flex;
+	position: relative;
+	left: 3%;
+	top: 15px;
+	width: 94%;
+}
+
+.sect_left{
+	width: 65%;
+	/* background-color: #F5DEB3; */
+}
+
+
+.sect_right{
+	width: 35%;
+	background-color: #F5DEB3;
+}
+
+.sect_title{
+	display: flex;
+	align-items: center;
+	position: relative;
+	color: white;
+}
+
+.bg_red{
+	background-color: #e74d3b;
+}
+
+#basic_data{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 26px;
+}
+
+.sect_content{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #fff;
+}
+
+.se_co_bg{
+	width: calc(100% - 60px);
+	/* background-color: #c3b8a2; */
+}
+
+.me_img{
+	/* left: 50px; */
+	width: 320px;
+	margin-right: 20px;
+}
+
+.tro_img{
+	/* width: 300px; */
+}
+
+.tro_tit{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-left: 10px;
+	margin-right: 14px;
+	padding: 10px;
+	/* background-color: #ddd; */
+}
+
+.about_me{
+	display: flex;
+	/* justify-content: center; */
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	word-break: break-all;
+	/* padding-right: 25px; */
+	/* background-color: #aaa; */
+}
+
+.my_name{
+	font-size: 25px;
+	font-weight: bold;
+	/* margin-top: 20px; */
+	padding: 10px;
+	word-wrap: break-word;
+	background-color: #FF7777;
+}
+
+.img_school{
+	width: 40px;
+	height: 40px;
+	margin-right: 15px;
+}
+
+.text_school{
+	margin-right: 15px;
+}
+
+
+.edu{
+	margin-right: 36px;
+}
+
+.edu_int{
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+}
+
+.edu_list{
+	font-size: 22px;
+}
+
+.flex-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.uni{
+	margin-bottom: 18px;
+	color: blue;
+	margin-right: 15px;
+}
+
+.int_list{
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 24px;
+}
+
+.mr_20{
+	margin-right: 20px;
+}
+
+.red{
+	color: #e74d3b;
+}
+
+
+
+.list{
+	font-size: 23.5px;
+	line-height: 50px;
+}
+
+.white{
+	color: white;
+}
+
+
+.bg_orange{
+	background-color: #e57f21;
+}
+
+#club_expe{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 26px;
+}
+
+
+.club_name{
+	display: flex;
+	justify-content: center;
+	width: 90px;
+	padding: 10px;
+	font-size: 26px;
+	color: white;
+	background-color: #36c811;
+	/* background-color: #11c65d; */
+}
+
+.desc{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 22px;
+}
+
+#work_expe{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 26px;
+}
+
+.bg_purple{
+	/* background-color: #9959b4; */
+	background-color: #8d1acd;
+}
+
+
+#goal_want{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 26px;
+}
+
+.bg_blue{
+	background-color: #2388c7;
+}
+
+#live_reco{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 26px;
+}
+
+.bg_green{
+	background-color: #11c65d;
+	/* background-color: #19bd9b; */
+	/* background-color: #19bd9b; */
+}
+
+
+
+.work_name{
+	padding: 10px;
+	font-size: 26px;
+	color: white;
+	margin-top: 10px;
+	background-color: #4c79ff;
+}
+
+
+
+.goal_name{
+	display: flex;
+	justify-content: start;
+	width: 56px;
+	padding: 10px;
+	font-size: 26px;
+	color: white;
+	background-color: #7744FF;
+}
+
+.bg_yellow{
+	background-color: #00ffff;
+}
+
+.bg_violet{
+	background-color: #4625b0;
+}
+
+
+.sect_pic{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+	/* margin-top: 20px; */
+	/* margin-bottom: 20px; */
+	
+	/* background-color: #aaa; */
+}
+
+.pic_mask{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 30px;
+    position: relative;
+	width: 50%;
+}
+
+.img_me{
+	width: 90%;
+}
+
+.mask{
+	position: absolute;
+    top: 0px;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+	font-size: 30px;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+    background: rgba(101, 101, 101, 0.7);
+}
+
+.mask:hover{
+	opacity: 1;
+}
+
+
+#cont_data{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 26px;
+}
+
+.cont_all{
+	padding: 26px 20px;
+}
+
+.attr{
+	word-spacing: 10px;
+	width: 56px;
+	padding: 10px;
+	font-size: 26px;
+	color: white;
+	background-color: #ff9326;
+}
+
+.attr_cont{
+	font-size: 20px;
+	margin-top: 18px;
+	margin-bottom: 30px;
+	/* width: 80%; */
+	word-break: break-all;
+	/* background-color: #ccc; */
+
+}
+
+.icon{
+	margin-top: 24px;
+	margin-right: 10px;
+	width: 70px;
+	height: 70px;
+}
+
+#skil_list{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 26px;
+}
+
+.bg_ski{
+	display: flex;
+	justify-content: center;
+	/* background-color: #ccc; */
+}
+
+.ctent_ski{
+	margin-top: 20px;
+	width: 90%;
+	/* background-color: #bbb; */
+
+}
+
+
+.ski_name{
+	font-size: 28px;
+	margin-bottom: 22px;
+	margin-top: 22px;
+}
+
+hr{
+	border: 1.5px solid #cd853f;
+	background-color: black;
+}
+
+.orange{
+	color: #ff8000;
+	/* color: blue; */
+}
+
+.gray{
+	color: #555;
+}
+
+#exce_perf{
+	display: flex;
+	align-items: center;
+	height: 50px;
+	font-size: 26px;
+}
+
+.pd_20{
+	padding: 20px;
+}
+
+.rank{
+	font-size: 24px;
+	/* margin-bottom: 24px; */
+	margin-top: 10px;
+}
+
+.good_subj{
+	font-size: 22px;
+}
+
+.field{
+	font-size: 24px;
+	color: #8c2300;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+.bg_copyri{
+	position: relative;
+	top: 15px;
+	left: 3%;
+	width: 94%;
+	font-size: 26px;
+}
+
+.copyri{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	color: white;
+	background-color: #333;
+}
+
+#go_top{
+	position: fixed;
+	bottom: 27px;
+	right: 3%;
+	padding: 5px;
+	font-size: 28px;
+	z-index: 999;
+	text-decoration: none;
+	color: white;
+	background-color: #d93600;
+}
+
+#go_top:hover{
+	text-decoration: underline;
+}
+
+.think{
+	/* padding: 0px 11px; */
+	font-size: 22px;
+	position: relative;
+	left: 2%;
+	width: 97.5%;
+}
+
+.class_name{
+	line-height: 42px;
+}
+
+
+
+
+
+
+
+
+
+
